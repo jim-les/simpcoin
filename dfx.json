@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "sipcoin_backend": {
+      "main": "src/sipcoin_backend/main.mo",
+      "type": "motoko"
+    },
+    "sipcoin_frontend": {
+      "dependencies": [
+        "sipcoin_backend"
+      ],
+      "source": [
+        "src/sipcoin_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "sipcoin_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

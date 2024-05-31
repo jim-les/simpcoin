@@ -1,0 +1,13 @@
+.web_logo{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.web_logo img{
+    transform: scale(2.5) translateX(10px) translateY(5px);
+
+}

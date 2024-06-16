@@ -11,6 +11,9 @@ echo "Installation completed."
 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
 
 # Initialize the local replica of the Internet Computer
+npm install
+
+
 dfx init
 
 echo "Local replica initialized."
